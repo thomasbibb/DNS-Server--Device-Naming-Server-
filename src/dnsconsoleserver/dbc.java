@@ -17,7 +17,7 @@ public class dbc {
         public dbc () {
            try
            {
-               String url = "jdbc:mysql://localhost/dns-server?user=root&password=skelitor[]8521";
+               String url = "jdbc:mysql://localhost/dns-server?user=root&password=xxxxx";
                Class.forName ("com.mysql.jdbc.Driver").newInstance ();
                mySQLi = DriverManager.getConnection (url);
                System.out.println ("Querying Datastore");
